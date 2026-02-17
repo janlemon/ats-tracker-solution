@@ -54,11 +54,11 @@
             "schemaName": "jlem_ENV_ATS_SharePointList_Requests"
           }
         },
-        "ENV_ATS_SharepointSite (jlem_ENV_ATS_SharepointSite)": {
+        "ENV_ATS_Tracker_SharePointSite (jlem_ENV_ATS_Tracker_SharePointSite)": {
           "defaultValue": "https://ezpada.sharepoint.com/sites/ats",
           "type": "String",
           "metadata": {
-            "schemaName": "jlem_ENV_ATS_SharepointSite"
+            "schemaName": "jlem_ENV_ATS_Tracker_SharePointSite"
           }
         },
         "ENV_ATS_App_URL (jlem_ENV_ATS_App_URL)": {
@@ -88,7 +88,7 @@
               "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
             },
             "parameters": {
-              "dataset": "@parameters('ENV_ATS_SharepointSite (jlem_ENV_ATS_SharepointSite)')",
+              "dataset": "@parameters('ENV_ATS_Tracker_SharePointSite (jlem_ENV_ATS_Tracker_SharePointSite)')",
               "table": "@parameters('ENV_ATS_SharePointList_Requests (jlem_ENV_ATS_SharePointList_Requests)')"
             },
             "authentication": "@parameters('$authentication')"
@@ -116,7 +116,7 @@
                   "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
                 },
                 "parameters": {
-                  "dataset": "@parameters('ENV_ATS_SharepointSite (jlem_ENV_ATS_SharepointSite)')",
+                  "dataset": "@parameters('ENV_ATS_Tracker_SharePointSite (jlem_ENV_ATS_Tracker_SharePointSite)')",
                   "table": "@parameters('ENV_ATS_SharePointList_Requests (jlem_ENV_ATS_SharePointList_Requests)')",
                   "id": "@triggerBody()?['ID']",
                   "since": "@trigger()?['outputs']?['body/{TriggerWindowStartToken}']"
@@ -141,7 +141,7 @@
                   "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
                 },
                 "parameters": {
-                  "dataset": "@parameters('ENV_ATS_SharepointSite (jlem_ENV_ATS_SharepointSite)')",
+                  "dataset": "@parameters('ENV_ATS_Tracker_SharePointSite (jlem_ENV_ATS_Tracker_SharePointSite)')",
                   "table": "@parameters('ENV_ATS_SharePointList_Roles (jlem_ENV_ATS_SharePointList_Roles)')",
                   "$filter": "Role eq 'Compliance'"
                 },
