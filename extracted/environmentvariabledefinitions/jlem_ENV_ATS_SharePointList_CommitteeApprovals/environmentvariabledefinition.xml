@@ -8,7 +8,7 @@
   <isrequired>0</isrequired>
   <parameterkey>table</parameterkey>
   <parentdefinitionid>
-    <schemaname>jlem_ENV_ATS_SharepointSite</schemaname>
+    <schemaname>jlem_ENV_ATS_Tracker_SharePointSite</schemaname>
   </parentdefinitionid>
   <secretstore>0</secretstore>
   <type>100000004</type>

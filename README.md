@@ -22,7 +22,7 @@ This solution provides a complete system for managing and tracking ATS requests 
 ### Environment Variables
 
 - `jlem_ATS_Environment` - DEV | PROD environment selector
-- `jlem_ENV_ATS_SharepointSite` - SharePoint site URL
+- `jlem_ENV_ATS_Tracker_SharePointSite` - SharePoint site URL
 - `jlem_ENV_ATS_SharePointList_Requests` - Requests list GUID
 - `jlem_ENV_ATS_SharePointList_Roles` - Roles list GUID
 - `jlem_ENV_ATS_SharePointList_CommitteeApprovals` - Committee approvals list GUID

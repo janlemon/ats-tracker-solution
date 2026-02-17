@@ -85,23 +85,23 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_Tracker_SharePointSite" solution="Active" id.schemaname="jlem_ENV_ATS_Tracker_SharePointSite" />
         <Dependent type="29" displayName="Flow - ATS Committee Final Decision - Notify All" id="{50a93cfb-fa0b-f111-8406-000d3abc01cc}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_Tracker_SharePointSite" solution="Active" id.schemaname="jlem_ENV_ATS_Tracker_SharePointSite" />
         <Dependent type="29" displayName="Flow - ATS Team Approval - Notify" id="{aeb4bb9c-f50b-f111-8406-000d3abc01cc}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_Tracker_SharePointSite" solution="Active" id.schemaname="jlem_ENV_ATS_Tracker_SharePointSite" />
         <Dependent type="29" displayName="Flow - ATS Submitted - Notify Reviewers" id="{d6a4cf53-f800-f111-8406-7c1e52735cec}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_Tracker_SharePointSite" solution="Active" id.schemaname="jlem_ENV_ATS_Tracker_SharePointSite" />
         <Dependent type="29" displayName="Flow-ATS Committee Member Approval - Notify Compliance" id="{ef6c3cb5-fa0b-f111-8406-000d3abc01cc}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_Tracker_SharePointSite" solution="Active" id.schemaname="jlem_ENV_ATS_Tracker_SharePointSite" />
         <Dependent type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharePointList_CommitteeApprovals" id.schemaname="jlem_ENV_ATS_SharePointList_CommitteeApprovals" />
       </MissingDependency>
     </MissingDependencies>
