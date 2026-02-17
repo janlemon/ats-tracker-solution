@@ -5,7 +5,7 @@
       <LocalizedName description="ATS Tracker" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.3</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>JanLemon</UniqueName>
@@ -77,10 +77,25 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="29" id="{50a93cfb-fa0b-f111-8406-000d3abc01cc}" behavior="0" />
+      <RootComponent type="29" id="{aeb4bb9c-f50b-f111-8406-000d3abc01cc}" behavior="0" />
       <RootComponent type="29" id="{d6a4cf53-f800-f111-8406-7c1e52735cec}" behavior="0" />
+      <RootComponent type="29" id="{ef6c3cb5-fa0b-f111-8406-000d3abc01cc}" behavior="0" />
       <RootComponent type="300" schemaName="crbbf_atstracker_65250" behavior="0" />
     </RootComponents>
     <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="jlem_ATS_SharepointConnection" solution="Active" id.connectionreferencelogicalname="jlem_ATS_SharepointConnection" />
+        <Dependent type="29" displayName="Flow - ATS Committee Final Decision - Notify All" id="{50a93cfb-fa0b-f111-8406-000d3abc01cc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="jlem_ATS_SharepointConnection" solution="Active" id.connectionreferencelogicalname="jlem_ATS_SharepointConnection" />
+        <Dependent type="29" displayName="Flow-ATS Committee Member Approval - Notify Compliance" id="{ef6c3cb5-fa0b-f111-8406-000d3abc01cc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
+        <Dependent type="29" displayName="Flow - ATS Team Approval - Notify" id="{aeb4bb9c-f50b-f111-8406-000d3abc01cc}" />
+      </MissingDependency>
       <MissingDependency>
         <Required type="EnvironmentVariableDefinition" displayName="jlem_ENV_ATS_SharepointSite" solution="Active" id.schemaname="jlem_ENV_ATS_SharepointSite" />
         <Dependent type="29" displayName="Flow - ATS Submitted - Notify Reviewers" id="{d6a4cf53-f800-f111-8406-7c1e52735cec}" />

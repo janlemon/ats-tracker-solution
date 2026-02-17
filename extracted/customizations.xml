@@ -2,6 +2,84 @@
   <Entities></Entities>
   <Roles></Roles>
   <Workflows>
+    <Workflow WorkflowId="{aeb4bb9c-f50b-f111-8406-000d3abc01cc}" Name="Flow - ATS Team Approval - Notify">
+      <JsonFileName>/Workflows/Flow-ATSTeamApproval-Notify-AEB4BB9C-F50B-F111-8406-000D3ABC01CC.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.3</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <ModernFlowType>0</ModernFlowType>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Flow - ATS Team Approval - Notify" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{ef6c3cb5-fa0b-f111-8406-000d3abc01cc}" Name="Flow-ATS Committee Member Approval - Notify Compliance">
+      <JsonFileName>/Workflows/Flow-ATSCommitteeMemberApproval-NotifyCompliance-EF6C3CB5-FA0B-F111-8406-000D3ABC01CC.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.3</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <ModernFlowType>0</ModernFlowType>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Flow-ATS Committee Member Approval - Notify Compliance" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{50a93cfb-fa0b-f111-8406-000d3abc01cc}" Name="Flow - ATS Committee Final Decision - Notify All">
+      <JsonFileName>/Workflows/Flow-ATSCommitteeFinalDecision-NotifyAll-50A93CFB-FA0B-F111-8406-000D3ABC01CC.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.3</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <ModernFlowType>0</ModernFlowType>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Flow - ATS Committee Final Decision - Notify All" />
+      </LocalizedNames>
+    </Workflow>
     <Workflow WorkflowId="{d6a4cf53-f800-f111-8406-7c1e52735cec}" Name="Flow - ATS Submitted - Notify Reviewers">
       <JsonFileName>/Workflows/Flow-ATSSubmitted-NotifyReviewers-D6A4CF53-F800-F111-8406-7C1E52735CEC.json</JsonFileName>
       <Type>1</Type>
@@ -40,7 +118,7 @@
   <CanvasApps>
     <CanvasApp>
       <Name>crbbf_atstracker_65250</Name>
-      <AppVersion>2026-02-03T08:59:28Z</AppVersion>
+      <AppVersion>2026-02-17T12:05:32Z</AppVersion>
       <Status>Ready</Status>
       <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
       <MinClientVersion>0.0.0.0</MinClientVersion>
@@ -50,8 +128,8 @@
       <BackgroundColor>RGBA(255,255,255,1)</BackgroundColor>
       <DisplayName>ATS Tracker</DisplayName>
       <Description>Algorithmic Trading System Tracker</Description>
-      <CommitMessage xsi:nil="true"></CommitMessage>
-      <Publisher xsi:nil="true"></Publisher>
+      <CommitMessage></CommitMessage>
+      <Publisher></Publisher>
       <AuthorizationReferences>[]</AuthorizationReferences>
       <ConnectionReferences>{"4c3eda6d-2f84-40d5-baad-d532b2afda40":{"id":"/providers/Microsoft.PowerApps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1769/1.0.1769.4352/sharepointonline/icon.png","dataSources":["rolestest","atsrequeststest","atsmessagestest","committeevotedelegationstest","sharepointonline","roles","atsrequests","atsmessages","committeevotedelegations","committeeapprovalstest","committeeapprovals"],"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://ezpada.sharepoint.com/sites/ats":{"dataSources":{"rolestest":{"tableName":"Roles Test"},"atsrequeststest":{"tableName":"ATS Requests Test"},"atsmessagestest":{"tableName":"ATS Messages Test"},"committeevotedelegationstest":{"tableName":"Committee Vote Delegations Test"},"roles":{"tableName":"Roles"},"atsrequests":{"tableName":"ATS Requests"},"atsmessages":{"tableName":"ATS Messages"},"committeevotedelegations":{"tableName":"Committee Vote Delegations"},"committeeapprovalstest":{"tableName":"Committee Approvals Test"},"committeeapprovals":{"tableName":"Committee Approvals"}}}},"apiTier":"Standard"},"71b24114-4d72-4244-8cd3-ef73ef6c01fb":{"id":"/providers/Microsoft.PowerApps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1788/1.0.1788.4524/office365users/icon.png","dataSources":["office365users"],"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
       <DatabaseReferences>{}</DatabaseReferences>
