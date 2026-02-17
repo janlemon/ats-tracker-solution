@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="jlem_ATS_Environment">
+  <defaultvalue>DEV</defaultvalue>
+  <description default="DEV | PROD">
+    <label description="DEV | PROD" languagecode="1033" />
+  </description>
+  <displayname default="ATS_Environment">
+    <label description="ATS_Environment" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.3</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

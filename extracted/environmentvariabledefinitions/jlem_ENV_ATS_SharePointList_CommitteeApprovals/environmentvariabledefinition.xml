@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="jlem_ENV_ATS_SharePointList_CommitteeApprovals">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="ENV_ATS_SharePointList_CommitteeApprovals">
+    <label description="ENV_ATS_SharePointList_CommitteeApprovals" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.3</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>jlem_ENV_ATS_SharepointSite</schemaname>
+  </parentdefinitionid>
+  <secretstore>0</secretstore>
+  <type>100000004</type>
+</environmentvariabledefinition>

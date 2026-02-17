@@ -1,0 +1,116 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26013.152" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26013.00152">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{d6a4cf53-f800-f111-8406-7c1e52735cec}" Name="Flow - ATS Submitted - Notify Reviewers">
+      <JsonFileName>/Workflows/Flow-ATSSubmitted-NotifyReviewers-D6A4CF53-F800-F111-8406-7C1E52735CEC.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.3</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <ModernFlowType>0</ModernFlowType>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Flow - ATS Submitted - Notify Reviewers" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>crbbf_atstracker_65250</Name>
+      <AppVersion>2026-02-03T08:59:28Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
+      <MinClientVersion>0.0.0.0</MinClientVersion>
+      <Tags>{}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(255,255,255,1)</BackgroundColor>
+      <DisplayName>ATS Tracker</DisplayName>
+      <Description>Algorithmic Trading System Tracker</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"4c3eda6d-2f84-40d5-baad-d532b2afda40":{"id":"/providers/Microsoft.PowerApps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1769/1.0.1769.4352/sharepointonline/icon.png","dataSources":["rolestest","atsrequeststest","atsmessagestest","committeevotedelegationstest","sharepointonline","roles","atsrequests","atsmessages","committeevotedelegations","committeeapprovalstest","committeeapprovals"],"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://ezpada.sharepoint.com/sites/ats":{"dataSources":{"rolestest":{"tableName":"Roles Test"},"atsrequeststest":{"tableName":"ATS Requests Test"},"atsmessagestest":{"tableName":"ATS Messages Test"},"committeevotedelegationstest":{"tableName":"Committee Vote Delegations Test"},"roles":{"tableName":"Roles"},"atsrequests":{"tableName":"ATS Requests"},"atsmessages":{"tableName":"ATS Messages"},"committeevotedelegations":{"tableName":"Committee Vote Delegations"},"committeeapprovalstest":{"tableName":"Committee Approvals Test"},"committeeapprovals":{"tableName":"Committee Approvals"}}}},"apiTier":"Standard"},"71b24114-4d72-4244-8cd3-ef73ef6c01fb":{"id":"/providers/Microsoft.PowerApps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1788/1.0.1788.4524/office365users/icon.png","dataSources":["office365users"],"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>4</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <CodeAppPackageUris>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/index.html_ContentType_text/html</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/AttachmentService-C8YzT5nu.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/admin-delegations-CbyzrGNQ.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/admin-roles-BybwAspM.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/badge-C_6wi-kQ.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/calendar-_BWrpPnM.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/checkbox-Bv92hGFs.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/dialog-CKAHgLAD.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/edit-request-Y_0F94EZ.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/index-BElxQeur.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/index-CyJ7DM1S.css_ContentType_text/css</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/label-2xgWSV0F.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/new-request-B3GzvsJh.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/popover-DtRmaoja.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/request-detail-BCsyYOpm.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/send-C29nFcZr.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/square-pen-B_Zwy85Y.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/test-mOd2HYhc.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/textarea-m8511rVK.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/assets/useCommitteeDelegations-DSsmd-3L.js_ContentType_application/javascript</CodeAppPackageUri>
+        <CodeAppPackageUri>/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/power-apps.svg_ContentType_image/svg+xml</CodeAppPackageUri>
+      </CodeAppPackageUris>
+    </CanvasApp>
+  </CanvasApps>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="jlem_ConnRef_ATS_Tracker_Sharepoint">
+      <connectionreferencedisplayname>ConnRef ATS Tracker Sharepoint</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="jlem_ConnRefATSTrackerOutlook">
+      <connectionreferencedisplayname>ConnRef ATS Tracker Outlook</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+    <Language>1036</Language>
+    <Language>3082</Language>
+  </Languages>
+</ImportExportXml>
