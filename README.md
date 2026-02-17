@@ -2,6 +2,11 @@
 
 Power Platform solution for ATS (Algorithmic Trading System) request management and approval workflow.
 
+## Related Repositories
+
+- 🎨 **Canvas App (React)**: [ATS-CodeApp](https://github.com/janlemon/ATS-CodeApp) - React-based frontend application
+- 🔧 **Power Platform Solution**: This repository - Workflows, environment variables, and solution components
+
 ## Description
 
 This solution provides a complete system for managing and tracking ATS requests through multiple review stages (IT, Market Risk, Compliance, Committee) with automated notifications and approvals.
@@ -12,7 +17,7 @@ This solution provides a complete system for managing and tracking ATS requests 
 
 - **ATS Tracker** - React-based CodeComponent Power App for request management
 - Located in: `extracted/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/`
-- Source code repository: [ats-tracker](https://github.com/janlemon/ats-tracker)
+- Source code repository: [ATS-CodeApp](https://github.com/janlemon/ATS-CodeApp)
 
 ### Power Automate Flows
 
