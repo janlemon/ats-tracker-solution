@@ -9,15 +9,18 @@ This solution provides a complete system for managing and tracking ATS requests 
 ## Components
 
 ### Canvas App
+
 - **ATS Tracker** - React-based CodeComponent Power App for request management
 - Located in: `extracted/CanvasApps/crbbf_atstracker_65250_CodeAppPackages/`
 - Source code repository: [ats-tracker](https://github.com/janlemon/ats-tracker)
 
 ### Power Automate Flows
+
 1. **Flow-ATSSubmitted-NotifyReviewers** - Notifies reviewers when new ATS request is submitted
 2. **Flow-ATSTeamApproval-Notify** - Notifies Compliance team when IT/Market Risk/Committee approves
 
 ### Environment Variables
+
 - `jlem_ATS_Environment` - DEV | PROD environment selector
 - `jlem_ENV_ATS_SharepointSite` - SharePoint site URL
 - `jlem_ENV_ATS_SharePointList_Requests` - Requests list GUID
@@ -26,6 +29,7 @@ This solution provides a complete system for managing and tracking ATS requests 
 - `jlem_ENV_ATS_Tracker_SharePointList_Messages` - Messages list GUID
 
 ### Connection References
+
 - `jlem_ConnRef_ATS_Tracker_Sharepoint` - SharePoint connection
 - `jlem_ConnRefATSTrackerOutlook` - Office 365 Outlook connection
 
@@ -47,6 +51,7 @@ Solution_ATSProjects/
 ## Deployment
 
 ### Prerequisites
+
 - Power Platform CLI (`pac`)
 - PowerShell with PnP.PowerShell module (for SharePoint scripts)
 - Access to target Power Platform environment
@@ -55,11 +60,13 @@ Solution_ATSProjects/
 ### Import Solution
 
 1. Authenticate to Power Platform:
+
    ```bash
    pac auth create --environment <your-environment-url>
    ```
 
 2. Import solution:
+
    ```bash
    pac solution import --path <solution-zip> --force-overwrite
    ```
@@ -97,10 +104,12 @@ Use the provided PowerShell scripts to download the SharePoint list structure fo
 ## Environment Configuration
 
 ### DEV Environment
+
 - Emails sent to: `jan.lemon@ezpada.com`
 - Environment variable: `ATS_Environment = DEV`
 
 ### PROD Environment
+
 - Emails sent to actual user emails from Roles list
 - Environment variable: `ATS_Environment = PROD`
 
